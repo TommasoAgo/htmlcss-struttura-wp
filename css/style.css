@@ -37,3 +37,51 @@
 
 /* MAIN */
 
+main {
+    margin-top: 20px;
+}
+
+/* First Row */
+
+.firstrow {
+    width: 100%;
+    height: 50px;
+    background-color: #abcfe7;
+}
+
+/* Second Row */
+
+.secondrow {
+    width: 100%;
+    height: 440px;
+    background-color: #0086ff;
+}
+
+.secondrow::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Columns */
+
+.col {
+    float: left;
+    margin-top: 20px;
+    background-color: #abcfe7;
+    height: 400px;
+}
+
+.col-left, .col-right {
+    width: 28%;
+}
+
+.col-center {
+    width: 40%; 
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+
