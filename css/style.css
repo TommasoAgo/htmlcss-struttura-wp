@@ -1,0 +1,39 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+.container {
+    width: 1024px;
+    margin: auto;
+}   
+
+/* HEADER */
+
+/* Common */
+
+.sectionone, .sectiontwo {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Section One */
+
+.sectionone {
+    background-color: #e57ae6;
+    height: 80px;
+}
+
+/* Sectiontwo */
+
+.sectiontwo {
+    background-color: #e1d67a;
+    height: 400px;
+}
+
+/* MAIN */
+
